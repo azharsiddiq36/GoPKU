@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rumahsakit"
+            android:icon="@drawable/ic_menu_hospital"
+            android:title="Rumah Sakit" />
+        <item
+            android:id="@+id/nav_restoran"
+            android:icon="@drawable/ic_menu_restoran"
+            android:title="Restoran" />
+        <item
+            android:id="@+id/nav_gedungpemerintahan"
+            android:icon="@drawable/ic_menu_gedungpemerintahan"
+            android:title="Gedung Pemerintahan" />
+        <item
+            android:id="@+id/nav_bank"
+            android:icon="@drawable/ic_menu_bank"
+            android:title="Bank" />
+        <item
+            android:id="@+id/nav_campus"
+            android:icon="@drawable/ic_menu_campus"
+            android:title="Universitas" />
+        <item
+            android:id="@+id/nav_sportcenter"
+            android:icon="@drawable/ic_menu_sportcenter"
+            android:title="Sport Center" />
+    </group>
+
+
+</menu>

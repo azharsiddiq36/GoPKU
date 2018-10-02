@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jbenastey.org.gopku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RumahSakit"/>
+        <activity android:name=".RSEkaHospital"/>
+        <activity android:name=".Bank"/>
+        <activity android:name=".BBri"/>
+        <activity android:name=".BMandiri"/>
+        <activity android:name=".BRiau"/>
+        <activity android:name=".Campus"/>
+        <activity android:name=".CFC"/>
+        <activity android:name=".DPR"/>
+        <activity android:name=".GedungPemerintahan"/>
+        <activity android:name=".GRemaja"/>
+        <activity android:name=".Gubernur"/>
+        <activity android:name=".KFC"/>
+        <activity android:name=".PH"/>
+        <activity android:name=".Polisi"/>
+        <activity android:name=".Restoran"/>
+        <activity android:name=".RSAwalBros"/>
+        <activity android:name=".RSSyafira"/>
+        <activity android:name=".SportCenter"/>
+        <activity android:name=".SRiau"/>
+        <activity android:name=".SRumbai"/>
+        <activity android:name=".UIN"/>
+        <activity android:name=".Unilak"/>
+        <activity android:name=".UR"/>
+        <activity android:name=".BBriLocation"/>
+        <activity android:name=".BMandiriLocation"/>
+        <activity android:name=".BRiauLocation"/>
+        <activity android:name=".CFCLocation"/>
+        <activity android:name=".DPRLocation"/>
+        <activity android:name=".GRemajaLocation"/>
+        <activity android:name=".GubernurLocation"/>
+        <activity android:name=".KFCLocation"/>
+        <activity android:name=".PHLocation"/>
+        <activity android:name=".PolisiLocation"/>
+        <activity android:name=".RSAwalBrosLocation"/>
+        <activity android:name=".RSEkaHospitalLocation"/>
+        <activity android:name=".RSSyafiraLocation"/>
+        <activity android:name=".SRiauLocation"/>
+        <activity android:name=".SRumbaiLocation"/>
+        <activity android:name=".UINLocation"/>
+        <activity android:name=".UnilakLocation"/>
+        <activity android:name=".URLocation"/>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+</manifest>
